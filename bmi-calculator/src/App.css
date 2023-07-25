@@ -89,11 +89,27 @@ h3 {
 
 }
 
+.imperial-unit-container {
+  display: none;
+}
+
+.imperial-ft-in-container {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: space-between;
+  
+
+}
 .input-container {
   width: 78%;
   margin: auto;
   margin-top: 20px;
   height: fit-content;
+}
+
+input-container-two {
+  display: flex;
 }
 
 input {
@@ -106,6 +122,14 @@ input {
   margin-top: 5px;
   font-size: 20px;
   color: #345FF6;
+}
+
+.imperial-input {
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+
 }
 
 
